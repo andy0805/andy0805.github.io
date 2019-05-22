@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+ul,li,a{
+	list-style:none;
+	text-decoration:none;	
+}
+.cl{ clear:both}
+h1{margin:0;padding:0;}
+.main{
+	width:90%;
+	max-width:1200px;
+	height:100%;
+	margin:auto auto;	
+}
+.main h1{
+	font-size:1em;
+	margin-top:10px;	
+}
+.logo{
+	width:100%;
+	max-width:1200px;
+	border-bottom:1px dotted #9bc023;
+	margin:auto auto;
+	padding-bottom:10px;
+	margin-top:40px;
+}
+.logo h1{
+	margin-left:450px;
+	font-size:1.6em;
+	margin-top:20px;
+	color:#94b820;
+}
+.logo p{
+	font-size:0.6em;
+	font-weight:normal;
+}
+.logo span{
+	float:left;
+	padding-right:20px;
+}
+.content{
+	width:100%;
+	min-height:100%;
+	max-width:1200px;
+	margin:auto auto;
+	height:100%;
+}
+.content h2{
+	font-size:1.2em;
+	text-align:center;
+}
+.content p{
+	font-size:0.8em;
+	font-weight:normal;
+}
+.content li{
+	width:90%;
+	max-width:1200px;
+	font-size:0.9em;
+	text-align:left;
+	font-family:'宋体';
+	margin-top:20px;
+	line-height:20px;
+	color:#666;
+}
+.change{
+	width:100%;
+	max-width:1200px;
+	margin:auto auto;
+	border-bottom:1px solid #9bc025;
+	margin:100px 0;
+	text-align:center;
+	color:#f7aa50;
+}
+.change span{
+	color:#f7aa50;
+	font-size:0.9em;
+	margin-bottom:10px;	
+}
+.bottom{
+	border-top:1px dotted #b3b3b3;
+	width:90%;
+	color:#8f8f8f;
+	max-width:1200px;
+	margin:auto auto;
+	text-align:center;
+	line-height:10px;
+	padding-top:20px;
+	position:fixed;
+	bottom:0;
+}
