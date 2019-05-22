@@ -14,7 +14,7 @@
 	$(document).ready(function() {
 		$('#pagepiling').pagepiling({
 			menu: '#menu',
-			anchors: ['index', 'news', 'introduce', 'recruitment', 'about', 'page6','page7','page8'],
+			anchors: [ 'news', 'introduce', 'recruitment', 'about', 'page6','page7','page8'],
 			sectionsColor: ['#4abaec', 'url(images/bg2.png)', 'url(images/bg3.png)', 'url(images/bg3.jpg)', 'url(images/bg2.jpg)', '#9524ec','#fffced', '#6e6d1d'],
 			loopTop: true,
 			loopBottom: true
@@ -27,8 +27,8 @@
 <body>
 <ul id="menu">
 		<div class="logo"><img src="images/logo1.png" /></div>
-		<li data-menuanchor="index" class="active"><a href="#index">首页</a></li>
-		<li data-menuanchor="news"><a href="#news">公司动态</a></li>
+		<!-- <li data-menuanchor="index" class="active"><a href="#index">首页</a></li> -->
+		<li data-menuanchor="news" class="active"><a href="#news">公司动态</a></li>
 		<li data-menuanchor="introduce"><a href="#introduce">业务介绍</a></li>
         <li data-menuanchor="recruitment"><a href="#recruitment">诚聘英才</a></li>
         <li data-menuanchor="about"><a href="#about">千德同舟</a></li>
@@ -39,27 +39,27 @@
 
 
 	<div id="pagepiling">
-	    <div class="section" id="section1">
-			<p class="zong"></p>
-            <div class="index_news">
-    	<!-- <h2 style="margin-right:236px;color:white;font-weight:bold;font-size:1.4em;">公司动态:</h2>
+	    <!-- <div class="section" id="section1">
+			  <p class="zong"></p>  
+             <div class="index_news">
+    	 <h2 style="margin-right:236px;color:white;font-weight:bold;font-size:1.4em;">公司动态:</h2>
         <ul>
         	<li><span class="r">03-02</span><a href="#news">公司项目"青浦区"招商引资和产业...</a></li>
             <li><span class="r">03-02</span><a href="#news">公司开发的广西省工商守合同重信...</a></li>
             <li><span class="r">03-02</span><a href="#news">公司开发的湖南省工商守合同重信...</a></li>
             <li><span class="r">03-02</span><a href="#news">公司与山东省工商签署山东省工商...</a></li>
-        </ul> -->
-    </div>
-    <div class="index_list">
+        </ul>  
+    </div>  
+      <div class="index_list">
     	<h2 style="margin-right:236px;color:white;font-size:1.4em;font-weight:bold;">企业介绍:</h2>
         <ul>
         	<li><a href="#introduce"><img src="images/s1.png" /></a></li>
             <li><a href="#introduce"><img src="images/s2.png" /></a></li>
             <li><a href="#introduce"><img src="images/s3.png" /></a></li>
         </ul>
-    </div>
-      </div>
-	  		<div class="section" id="section2">
+    </div>  
+      </div> -->
+	  		<div class="section" id="section1">
 	    	<div class="intro">
 				<p class="yongjin"><a href="#" target="_blank" class="more"></a></p>
                 <div class="dynamic">
@@ -87,7 +87,7 @@
                 </div>
     	  </div>
 	    </div>
-	    <div class="section" id="section3">
+	    <div class="section" id="section2">
 				<p class="jiangli"></p>
                 <div class="introduction">
                 <h3>业务介绍<p>Business introduction</p></h3>
@@ -106,7 +106,7 @@
                     </ul>
                 </div>
     	  </div>
-         <div class="section" id="section4">
+         <div class="section" id="section3">
 				<p class="jiesuan"></p>
                 <div class="talent">
                 	<h2>诚聘英才<p>Job Opportunitles</p></h2>
@@ -124,7 +124,7 @@
                     </ul>
                 </div>
     	   </div>
-		<div class="section" id="section5">
+		<div class="section" id="section4">
 				<p class="cxjz"></p>
                 <div class="business">
                 <h2>千德同舟信拓<p>ABOUT US</p></h2>
