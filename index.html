@@ -15,7 +15,8 @@
 		$('#pagepiling').pagepiling({
 			menu: '#menu',
 			anchors: [ 'news', 'introduce', 'recruitment', 'about', 'page6','page7','page8'],
-			sectionsColor: ['#4abaec', 'url(images/bg2.png)', 'url(images/bg3.png)', 'url(images/bg3.jpg)', 'url(images/bg2.jpg)', '#9524ec','#fffced', '#6e6d1d'],
+			//sectionsColor: [ 'url(images/bg2.png)', 'url(images/bg3.png)', 'url(images/bg3.jpg)', 'url(images/bg2.jpg)', '#9524ec','#fffced', '#6e6d1d'],
+            sectionsColor: [ 'url(images/bg2.png)', 'url(images/bg3.png)', 'url(images/bg3.jpg)', 'url(images/bg2.jpg)', '#9524ec','#fffced', '#6e6d1d'],
 			loopTop: true,
 			loopBottom: true
 		});
@@ -26,7 +27,7 @@
 
 <body>
 <ul id="menu">
-		<div class="logo"><img src="images/logo1.png" /></div>
+		<div class="logo"><img style="height:60px" src="images/logo1.png" /></div>
 		<!-- <li data-menuanchor="index" class="active"><a href="#index">首页</a></li> -->
 		<li data-menuanchor="news" class="active"><a href="#news">公司动态</a></li>
 		<li data-menuanchor="introduce"><a href="#introduce">业务介绍</a></li>
